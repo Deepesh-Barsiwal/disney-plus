@@ -1,11 +1,11 @@
 import React from 'react'
 import './index'
-import falcons from '../src/images/dbone.jpg'
-const falcon = () => {
+import img from '../src/images/dbimg4.jpg'
+const President = () => {
     return (
         <>
             <div className="container-fluid">
-                <div className="row falcon-background"  style = {{backgroundImage:`url(${falcons})`,minHeight:`87vh`,backgroundSize:`cover`,opacity:`1`}}>
+                <div className="row falcon-background"  style = {{backgroundImage:`url(${img})`,minHeight:`88.5vh`,backgroundSize:`cover`,opacity:`1`}}>
                     <div className="col col-12 d-flex flex-column justify-content-end align-items-end">
 <div className=" d-flex align-items-center">
     <button className="btn btn-light p-2 px-4 mx-2"><i class="fas fa-play mx-1"></i>PLAY</button>
@@ -15,7 +15,7 @@ const falcon = () => {
 </div>
 
 <p className="text-white fs-5 my-2 d-none d-md-block">2021 • 1 Season • Science Fiction, Action-Adventure, Buddy</p>
-<div className="w-50 d-none d-md-block"><p className="text-white fs-5 ">Marvel Studios’ “The Falcon and The Winter Soldier” stars Anthony Mackie as Sam Wilson aka The Falcon, and Sebastian Stan as Bucky Barnes aka The Winter Soldier. The pair, who came together in the final moments of “Avengers: Endgame,” team up on a global adventure that tests their abilities—and their patience.</p></div>
+<div className="w-50 d-none d-md-block"><p className="text-white fs-5 ">Marvel Studios’ “The Mandalorean” stars Anthony Mackie as Sam Wilson aka The Falcon, and Sebastian Stan as Bucky Barnes aka The Winter Soldier. The pair, who came together in the final moments of “Avengers: Endgame,” team up on a global adventure that tests their abilities—and their patience.</p></div>
 
 
                     </div>
@@ -25,4 +25,4 @@ const falcon = () => {
     )
 }
 
-export default falcon
+export default President;
