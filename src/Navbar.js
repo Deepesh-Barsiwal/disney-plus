@@ -7,7 +7,7 @@ import  './index.css'
 const Navbar = () => {
     return (
         <>
-                  <nav className="navbar navbar-expand-lg navbar-white ">
+                  <nav className="navbar navbar-expand-sm navbar-dark">
   <div className="container-fluid">
     <NavLink className="navbar-brand" to="/home"><img className="logo " src={img} alt="logo"/></NavLink>
    
