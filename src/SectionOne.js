@@ -11,7 +11,7 @@ const SectionOne = () => {
          <div className="container-fluid">
              <div className="row">
 
-                 <div className="col col-12 col-xl-3">
+                 <div className="col col-12 col-xl-3 ">
                  <Card img={disney} />  
                  </div>
 

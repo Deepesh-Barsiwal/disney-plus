@@ -12,6 +12,9 @@ nav img{
 }
 .row{
   background-color: #090B13;
+}
+.row .col{
+ 
   display: flex;
   justify-content: center;
 }
