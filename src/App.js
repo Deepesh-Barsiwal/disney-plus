@@ -16,6 +16,7 @@ import Luca from './Luca'
 import Loki from './Loki'
 import Dinner from './Dinner'
 import President from './President'
+import LoginForm from './LoginForm'
 const App = () => {
   return (
     <>
@@ -36,6 +37,7 @@ const App = () => {
         <Route exact path="/loki" component={Loki}/>
         <Route exact path="/dinner" component={Dinner}/>
         <Route exact path="/president" component={President}/>
+        <Route exact path="/loginform" component={LoginForm}/>
         <Redirect to="/"/>
       </Switch>
     </>

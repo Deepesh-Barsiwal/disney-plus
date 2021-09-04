@@ -48,3 +48,12 @@ left: 10%;
   transform: translateY(-20px);
   transition: 1s;
 }
+
+.modal-content{
+  height: 40vh;
+width: 100px;
+  background-color:black;
+}
+.modal Link{
+  text-decoration: none;
+}
